@@ -1,0 +1,38 @@
+
+p{
+  text-align: justify;
+  color: indigo;
+  transition: 3s;
+}
+h3{
+  text-align: center;
+  color: indigo;
+  transition: 3s;
+}
+
+div{
+  background-color: darkseagreen;
+  border: 5px solid green;
+  width: 250px;
+  height: 280px;
+  padding: 10px;
+  float: left;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 20px;
+  transition: 3s;
+}
+div:hover{
+  opacity: 1;
+  background-color: lightcoral;
+  border: 5px solid darkturquoise;
+  color: grey;
+}
+p:hover{
+  opacity: 1;
+  color: grey;
+}
+h3:hover{
+  opacity: 1;
+  color: grey;
+}
